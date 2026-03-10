@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 40" width="200" height="40">
+  <defs>
+    <linearGradient id="sg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#CC44FF"/>
+      <stop offset="100%" stop-color="#7700CC"/>
+    </linearGradient>
+  </defs>
+
+  <g transform="translate(0,2)">
+    <rect width="36" height="36" rx="8" fill="#12111A"/>
+    <path fill="url(#sg)" d="M18 4C20 13 25 17 32 18C25 19 20 23 18 32C16 23 11 19 4 18C11 17 16 13 18 4Z"/>
+  </g>
+
+  <text x="44" y="27" font-family="'Inter',sans-serif" font-size="22" font-weight="800" letter-spacing="-0.5" fill="#FFFFFF">Orderly</text>
+  <text x="132" y="27" font-family="'Inter',sans-serif" font-size="22" font-weight="800" letter-spacing="-0.5" fill="#9B30FF">Agents</text>
+</svg>

@@ -1,0 +1,11 @@
+node_modules/
+.next/
+dist/
+.turbo/
+.env
+.env.local
+.env.production
+.env.*.local
+*.tsbuildinfo
+.vercel
+scripts/generate-favicon.mjs

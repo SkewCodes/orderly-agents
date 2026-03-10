@@ -1,0 +1,17 @@
+{
+  "name": "orderly-agents",
+  "private": true,
+  "scripts": {
+    "dev": "turbo dev",
+    "build": "turbo build",
+    "lint": "turbo lint",
+    "db:generate": "turbo db:generate --filter=web",
+    "db:migrate": "turbo db:migrate --filter=web",
+    "db:seed": "turbo db:seed --filter=web"
+  },
+  "packageManager": "pnpm@9.15.4",
+  "devDependencies": {
+    "sharp": "^0.34.5",
+    "turbo": "^2"
+  }
+}
