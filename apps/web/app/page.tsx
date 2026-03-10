@@ -155,11 +155,6 @@ export default function Home() {
                 >
                   <span className="text-2xl font-bold tracking-[-0.02em] text-text-primary sm:text-3xl">
                     <AnimatedNumber value={stat.value} />
-                    {stat.suffix && (
-                      <span className="text-lg text-text-secondary sm:text-xl">
-                        {stat.suffix}
-                      </span>
-                    )}
                   </span>
                   <span className="mt-1 text-sm text-text-muted">{stat.label}</span>
                 </div>
