@@ -461,7 +461,7 @@ export function InstallGuide({ agent, open, onClose }: InstallGuideProps) {
   const isHosted = agent.runtime === "hosted";
   const effectiveRuntime = agent.runtime === "hybrid" ? "mcp" : agent.runtime;
   const totalSteps = isHosted ? 0 : 3;
-  const labels = STEP_LABELS[agent.runtime] ?? STEP_LABELS.mcp;
+  const labels: string[] = STEP_LABELS[agent.runtime] ?? ["Copy URL", "Configure", "Done"];
   const isLastStep = step === totalSteps - 1;
 
   return (

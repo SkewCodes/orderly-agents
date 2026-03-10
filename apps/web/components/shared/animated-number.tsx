@@ -19,7 +19,7 @@ export function AnimatedNumber({
 
     const observer = new IntersectionObserver(
       ([entry]) => {
-        if (!entry.isIntersecting || hasAnimated.current) return;
+        if (!entry?.isIntersecting || hasAnimated.current) return;
         hasAnimated.current = true;
         observer.disconnect();
 

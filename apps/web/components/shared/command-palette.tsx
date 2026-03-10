@@ -49,8 +49,8 @@ function groupByCategory(items: CommandItem[]): Record<string, CommandItem[]> {
   const groups: Record<string, CommandItem[]> = {};
   for (const item of items) {
     if (!groups[item.category]) groups[item.category] = [];
-    if (groups[item.category].length < MAX_PER_CATEGORY) {
-      groups[item.category].push(item);
+    if (groups[item.category]!.length < MAX_PER_CATEGORY) {
+      groups[item.category]!.push(item);
     }
   }
   return groups;

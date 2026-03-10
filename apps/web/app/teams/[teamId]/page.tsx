@@ -139,7 +139,7 @@ export default async function TeamDetailPage({ params }: Props) {
 
       {team.roster.length > 0 ? (
         <div className="animate-fade-in">
-          <TeamRoster agents={team.roster} />
+          <TeamRoster agents={team.roster as any} />
         </div>
       ) : (
         <div className="animate-fade-in flex flex-col items-center justify-center rounded-2xl border border-dashed border-white/[0.06] py-20 text-center">
