@@ -59,7 +59,7 @@ export default async function AgentDetailPage({ params }: Props) {
           { label: agent.name },
         ]}
       />
-      <AgentDetailClient agent={agent} />
+      <AgentDetailClient agent={agent as any} />
     </div>
   );
 }
